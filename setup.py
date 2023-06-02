@@ -23,9 +23,9 @@ if os.path.exists(readme_path):
     readme_contents = fp.read().strip()
 
 setup(
-    name="lmflow",
+    name="lmflow_benchmark",
     version=__version__,
-    description="LMFlow: Large Model Flow.",
+    description="LMFlow Benchmark: Large Model Benchmarks.",
     author="The LMFlow Team",
     long_description=readme_contents,
     long_description_content_type="text/markdown",
@@ -41,12 +41,3 @@ setup(
     ],
     requires_python=">=3.9",
 )
-
-# Must be called after all dependency installed, since flash-attn setup.py
-# relies on torch, packaging, etc.
-try:
-  gpu_state = subprocess.check_output(["nvidia-smi", "--query-gpu=name", "--format=csv,noheader"])
-  if b"A100" in gpu_state:
-    subprocess.call(["pip", "install", "flash-attn==1.0.4"])
-except:
-  pass
