@@ -4,7 +4,7 @@ from setuptools import setup
 import subprocess
 
 folder = os.path.dirname(__file__)
-version_path = os.path.join(folder, "src", "lmflow", "version.py")
+version_path = os.path.join(folder, "src", "lmflow_benchmark", "version.py")
 
 __version__ = None
 with open(version_path) as f:
