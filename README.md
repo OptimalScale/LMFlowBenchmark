@@ -23,7 +23,7 @@
 [![slack badge](https://img.shields.io/badge/Slack-Join-blueviolet?logo=slack&amp)](https://join.slack.com/t/lmflow/shared_invite/zt-1s6egx12s-THlwHuCjF6~JGKmx7JoJPA)
 [![WeChat badge](https://img.shields.io/badge/WeChat-Join-brightgreen?logo=wechat&amp)](https://i.imgloc.com/2023/06/01/Vki1CZ.jpeg)
 
-An automatic, scalable and multi-dimensional benchmark toolbox for evaluating large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
+This project provides a unified framework to evaluation generative large language models on different evaluation tasks.
 
 Large Model for All. See our [vision](https://github.com/OptimalScale/LMFlow#vision).
 
@@ -95,9 +95,9 @@ Whether you are a beginner or an expert, we believe that you can benefit from th
 If you find this repository useful, please consider giving ⭐ and citing:
 
 ```
-@misc{lmflow,
-  author = {Shizhe Diao and Rui Pan and Hanze Dong and KaShun Shum and Jipeng Zhang and Wei Xiong and Tong Zhang},
-  title = {LMFlow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models},
+@misc{lmflow-benchmark,
+  author = {Jipeng Zhang and KaShun Shum and Rui Pan and Renjie Pi and Xiang Liu and Shizhe Diao and Hanze Dong and Yong Lin and Tong Zhang},
+  title = {LMFlow Benchmark: A Scalable Evaluation Paradigm for Large Language Models},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
