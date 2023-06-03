@@ -16,17 +16,16 @@ Typical usage example:
 import json
 import logging
 import os 
-import sys
-sys.path.remove(os.path.abspath(os.path.dirname(sys.argv[0])))
-
 import subprocess
+import sys
 
 from transformers import HfArgumentParser
 
 from lmflow.datasets.dataset import Dataset
 from lmflow.pipeline.auto_pipeline import AutoPipeline
 from lmflow.models.auto_model import AutoModel
-from lmflow.args import ModelArguments, DatasetArguments, AutoArguments, BenchmarkingArguments
+from lmflow.args import ModelArguments, DatasetArguments, AutoArguments
+from lmflow_benchmark.args import BenchmarkingArguments
 
 logger = logging.getLogger(__name__)
 
