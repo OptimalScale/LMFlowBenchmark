@@ -1,0 +1,39 @@
+:py:mod:`lmflow_benchmark.args`
+===============================
+
+.. py:module:: lmflow_benchmark.args
+
+.. autoapi-nested-parse::
+
+   This script defines common arguments.
+
+   ..
+       !! processed by numpydoc !!
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   lmflow_benchmark.args.BenchmarkingArguments
+
+
+
+
+.. py:class:: BenchmarkingArguments
+
+   .. py:attribute:: dataset_name
+      :annotation: :Optional[str]
+
+      
+
+   .. py:attribute:: lm_evaluation_metric
+      :annotation: :Optional[str]
+
+      
+
+

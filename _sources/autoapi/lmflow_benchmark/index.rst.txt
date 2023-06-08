@@ -1,0 +1,29 @@
+:py:mod:`lmflow_benchmark`
+==========================
+
+.. py:module:: lmflow_benchmark
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   args/index.rst
+   version/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: internal_version
+   :annotation: = 0.0.1
+
+   
+
+.. py:data:: __version__
+   
+
+   
+
