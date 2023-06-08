@@ -1,7 +1,3 @@
-<p align="center" width="100%">
-<img src="assets/logo.png" alt="LMFlow" style="width: 100%; min-width: 300px; display: block; margin: auto; background-color: transparent;">
-</p>
-
 # LMFlow Benchmark
 
 <h4 align="center">
@@ -26,11 +22,6 @@
 This project provides a unified framework to evaluation generative large language models on different evaluation tasks.
 
 Large Model for All. See our [vision](https://github.com/OptimalScale/LMFlow#vision).
-
-<p align="center" width="100%">
-<img src="assets/features.png" alt="LMFlow-features" style="width: 100%; min-width: 300px; display: block; margin: auto;">
-</p>
-
 
 ## Latest News
 * [2023-05-08] :rocket: Release [LMFlow Benchmark](https://medium.com/@hkust.ml/lmflow-benchmark-an-automatic-evaluation-framework-for-open-source-llms-ef5c6f142418), an automatic evaluation framework for open-source chat-style LLMs. [Benchmark results](https://docs.google.com/spreadsheets/d/1JYh4_pxNzmNA9I0YM2epgRA7VXBIeIGS64gPJBg5NHA/edit#gid=0) on 31 popular models are reported. [Participate in LMFlow Benchmark](https://github.com/OptimalScale/LMFlow#33-lmflow-benchmark). :rocket:
@@ -95,9 +86,9 @@ Whether you are a beginner or an expert, we believe that you can benefit from th
 If you find this repository useful, please consider giving ⭐ and citing:
 
 ```
-@misc{lmflow-benchmark,
-  author = {Jipeng Zhang and KaShun Shum and Rui Pan and Renjie Pi and Xiang Liu and Shizhe Diao and Hanze Dong and Yong Lin and Tong Zhang},
-  title = {LMFlow Benchmark: A Scalable Evaluation Paradigm for Large Language Models},
+@misc{lmflow,
+  author = {Shizhe Diao and Rui Pan and Hanze Dong and KaShun Shum and Jipeng Zhang and Wei Xiong and Tong Zhang},
+  title = {LMFlow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},

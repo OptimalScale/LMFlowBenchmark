@@ -100,9 +100,9 @@ LMFlow Benchmark是一个用于开源大型语言模型的自动评估框架。
 ## Citation
 如果您觉得我们的软件包有用，欢迎点赞⭐、fork、转发和引用。谢谢大家的支持！
 
-@misc{lmflow-benchmark,
-  author = {Jipeng Zhang and KaShun Shum and Rui Pan and Renjie Pi and Xiang Liu and Shizhe Diao and Hanze Dong and Yong Lin and Tong Zhang},
-  title = {LMFlow Benchmark: A Scalable Evaluation Paradigm for Large Language Models},
+@misc{lmflow,
+  author = {Shizhe Diao and Rui Pan and Hanze Dong and KaShun Shum and Jipeng Zhang and Wei Xiong and Tong Zhang},
+  title = {LMFlow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
