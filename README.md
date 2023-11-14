@@ -73,6 +73,16 @@ Whether you are a beginner or an expert, we believe that you can benefit from th
 
 ## Citation
 If you find this repository useful, please consider giving ⭐ and citing:
+```
+@misc{lmflow-benchmark,
+  author = {Jipeng Zhang and Rui Pan and KaShun SHUM and Xiang Liu and Renjie Pi and Hanze Dong and Shizhe Diao and LIN Yong and Tong Zhang},
+  title = {LMFlow Benchmark: A Scalable Evaluation Paradigm for Large Language Models},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://optimalscale.github.io/LMFlow/}},
+}
+```
 
 ```
 @misc{lmflow,
